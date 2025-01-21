@@ -1,0 +1,14 @@
+{
+  "name": "discord-bot-key-distributor",
+  "version": "1.0.0",
+  "description": "This bot was made with the intention of having an easy way to hand out beta codes for testing a game. The bot will keep track of who got what key via Discord IDs and prevent people from getting more than one key. It will also move keys from the original key file to a new one called DeactivateKeys.txt so that you can just hand that text file off to Steam or Epic or wherever your game is being hosted to deactivate said keys if needed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.17.3"
+  }
+}
